@@ -38,6 +38,18 @@ class TestWrappingCalculator(unittest.TestCase):
         w = WrappingCalculator()
         self.assertEqual(w.ribbon_req([2, 3, 4]), 34)
 
+    def test_smallest_perimeter_example1(self):
+        w = WrappingCalculator()
+        self.assertEqual(w.smallest_perimeter([1, 1, 10]), 4)
+
+    def test_ribbon_bow_length_example1(self):
+        w = WrappingCalculator()
+        self.assertEqual(w.ribbon_bow_length([1, 1, 10]), 10)
+
+    def test_ribbon_req_example1(self):
+        w = WrappingCalculator()
+        self.assertEqual(w.ribbon_req([1, 1, 10]), 14)
+
 
 if __name__ == "__main__":
     unittest.main()
