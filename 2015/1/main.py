@@ -35,6 +35,7 @@ class FloorFinder:
         """Sets the starting floor"""
         self.floor = floor
 
+
 # Part 1
 finder = FloorFinder(0)
 finder.load_instructions("input.txt")
