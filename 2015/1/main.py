@@ -1,4 +1,4 @@
-from floorfinder import FloorFinder
+from classes.floorfinder import FloorFinder
 
 # Part 1
 finder = FloorFinder(0)
