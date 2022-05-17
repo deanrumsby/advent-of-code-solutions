@@ -1,5 +1,5 @@
 class Santa:
-    """For delivering presents - Now equipped with a copy of RoboSanta too"""
+    """For delivering presents"""
     def __init__(self):
         self.visited = {(0, 0)}
         self.x, self.y = (0, 0)
