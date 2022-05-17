@@ -7,9 +7,7 @@ class FloorFinder:
     def load_instructions(self, file_path):
         """Loads instructions"""
         with open(file_path) as file:
-            instructions = file.read()
-        for instruction in instructions:
-            self.instructions.append(instruction)
+            self.instructions = list(file.read())
         
     def change_floor(self, instruction):
         """Changes floor depending on the instruction"""
