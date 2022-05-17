@@ -1,5 +1,5 @@
 import unittest
-from wrappingcalculator import WrappingCalculator
+from classes.wrappingcalculator import WrappingCalculator
 
 class TestWrappingCalculator(unittest.TestCase):
     def test_surface_area_example1(self):
@@ -49,7 +49,3 @@ class TestWrappingCalculator(unittest.TestCase):
     def test_ribbon_req_example1(self):
         w = WrappingCalculator()
         self.assertEqual(w.ribbon_req([1, 1, 10]), 14)
-
-
-if __name__ == "__main__":
-    unittest.main()

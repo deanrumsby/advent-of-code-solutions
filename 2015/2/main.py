@@ -1,4 +1,4 @@
-from wrappingcalculator import WrappingCalculator
+from classes.wrappingcalculator import WrappingCalculator
 
 # Part 1
 calculator = WrappingCalculator()
